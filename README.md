@@ -12,7 +12,7 @@ Ejemplos sobre el uso de componentes reutilizables en angular, especialmente apl
 
 4. ingresar a http://localhost:4200 desde cualquier navegador, para ver e interactuar con la aplicación.
 
-## vista previa
+## Vista previa
 
 ![alt text](https://github.com/Edcodigo01/CompReuseNgoutletAng/blob/main/src/assets/images/vista-previa.png?raw=true)
 
