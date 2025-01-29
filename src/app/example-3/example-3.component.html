@@ -1,0 +1,33 @@
+<h5 class="title">Componentes reutilizables Angular</h5>
+<h5 class="subtitle">
+  Uso de directiva ngTemplate y ngTemplateOutlet (ejemplo 3 usando PrimeNG)
+</h5>
+<!-- componente tabla -->
+<app-table-prime-ng
+  [columns]="columns"
+  [rows]="rows"
+  [rowTemplate]="rowTemplate"
+></app-table-prime-ng>
+<!-- plantilla cuerpo de tabla -->
+<ng-template #rowTemplate let-row="row">
+  <tr>
+    <td>
+      <button type="button" class="btn sm btn-primary mr-1">
+        <i class="pi pi-user-edit"></i>
+      </button>
+      <button type="button" class="btn sm btn-danger mr-1">
+        <i class="pi pi-trash"></i>
+      </button>
+    </td>
+    <td>{{ row.full_name }}</td>
+    <td>{{ row.email }}</td>
+    <td
+      [ngClass]="{
+        'text-success': row.status == 'Habilitado',
+        'text-danger': row.status == 'Inhabilitado'
+      }"
+    >
+      {{ row.status }}
+    </td>
+  </tr>
+</ng-template>

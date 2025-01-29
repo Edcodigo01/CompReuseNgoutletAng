@@ -1,0 +1,29 @@
+<h5 class="title">Componentes reutilizables Angular</h5>
+<h5 class="subtitle">Uso de directiva ngTemplate (ejemplo simple 1)</h5>
+<!-- componente tabla simple-->
+<app-table-simple
+  [headerTemplate]="headerTemplate"
+  [bodyTemplate]="bodyTemplate"
+></app-table-simple>
+<!-- plantilla cabecera de tabla -->
+<ng-template #headerTemplate>
+  <tr>
+    <th>Acción</th>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Estatus</th>
+  </tr>
+</ng-template>
+<!-- plantilla cuerpo de tabla -->
+<ng-template #bodyTemplate let-item="item">
+  <tr>
+    <td>
+      <button type="button" class="btn sm btn-primary mr-1">
+        <i class="pi pi-user-edit"></i>
+      </button>
+    </td>
+    <td>Elena</td>
+    <td>Aguilar</td>
+    <td class="text-success">Activo</td>
+  </tr>
+</ng-template>

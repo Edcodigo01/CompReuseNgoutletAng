@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Lato", serif;
+}
+
+/* aplica margen a lo q contiene */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* text */
+.title {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 10px 0px 10px 0px;
+}
+
+.title.sm {
+  font-size: 19px;
+  font-weight: 800;
+  margin: 10px 0px 10px 0px;
+  color: rgb(78, 78, 78);
+}
+
+.subtitle {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0px 10px 0px;
+  color: grey;
+}
+
+p {
+  font-size: 16px;
+}
+
+.text-danger {
+  color: red !important;
+}
+
+.text-success {
+  color: green !important;
+}
+
+/* margins */
+.mr-1 {
+  margin-right: 5px;
+}
+/* cards */
+.card-table {
+  border: solid 1px rgb(202, 202, 202);
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.116);
+  overflow: hidden;
+}
+/* buttons */
+.btn {
+  border: 1px;
+  padding: 9px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.116);
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px rgb(207, 207, 207) solid;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.9;
+}
+
+.btn.btn-primary {
+  background: rgb(22, 144, 153);
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+
+.btn-danger {
+  background: rgb(224, 14, 14);
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.158);
+}
+
+.btn-secondary {
+  background: white;
+}
+
+.btn.sm {
+  font-size: 14px;
+  padding: 6px 8px;
+}
+/* table */
+.table-simple {
+  border-collapse: collapse;
+  width: 100%;
+  thead {
+    tr {
+      th {
+        padding: 14px;
+        text-align: left;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        border-top: 1px rgb(214, 214, 214) solid;
+        padding: 14px;
+        text-align: left;
+        color: rgb(65, 65, 65);
+      }
+    }
+  }
+}

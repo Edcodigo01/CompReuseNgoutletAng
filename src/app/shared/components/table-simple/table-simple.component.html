@@ -1,0 +1,12 @@
+<div class="card-table">
+  <table class="table-simple">
+    <thead>
+      <!-- Renderiza la palantilla de cabecera recibida del componente padre -->
+      <ng-container [ngTemplateOutlet]="headerTemplate"></ng-container>
+    </thead>
+    <tbody>
+      <!-- Renderiza la palantilla del cuerpo recibida del componente padre -->
+      <ng-container [ngTemplateOutlet]="bodyTemplate"></ng-container>
+    </tbody>
+  </table>
+</div>

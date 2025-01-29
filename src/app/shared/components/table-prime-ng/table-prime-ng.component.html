@@ -1,0 +1,28 @@
+<div class="card-table">
+  <p-table
+    [columns]="columns"
+    [value]="rows"
+    [paginator]="true"
+    [rows]="5"
+    [rowsPerPageOptions]="[5, 10, 20]"
+    paginatorDropdownAppendTo="body"
+  >
+    <ng-template let-columns #header>
+      <tr>
+        @for( item of columns; track item){ @if(item.field != 'actions'){
+        <th [pSortableColumn]="item.field">
+          {{ item.header }} <p-sortIcon [field]="item.field" />
+        </th>
+        }@else {
+        <th>{{ item.header }}</th>
+        } }
+      </tr>
+    </ng-template>
+    <ng-template #body let-row>
+      <ng-container
+        [ngTemplateOutlet]="rowTemplate"
+        [ngTemplateOutletContext]="{ row: row }"
+      ></ng-container>
+    </ng-template>
+  </p-table>
+</div>
