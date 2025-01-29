@@ -1,4 +1,4 @@
-# Demo Reutilización de componentens angular. Uso de la directiva ngTemplateOutlet
+# Demo Reutilización de componententes en angular. Uso de la directiva ngTemplateOutlet.
 
 Ejemplos sobre el uso de componentes reutilizables en angular, especialmente aplicando las directivas, ngTemplateOutlet y ngTemplateOutletContext
 
@@ -18,4 +18,4 @@ Ejemplos sobre el uso de componentes reutilizables en angular, especialmente apl
 
 ## Descripción del codigo implementado
 
-Explicación del código en el siguinete enlace:
+Explicación del código en el siguinete enlace: https://www.linkedin.com/posts/edwar-villavicencio-876155226_angular-frontend-javascript-activity-7290421676071145472-IP-c?utm_source=share&utm_medium=member_desktop
