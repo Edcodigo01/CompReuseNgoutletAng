@@ -14,6 +14,8 @@ Ejemplos sobre el uso de componentes reutilizables en angular, especialmente apl
 
 ## vista previa
 
+![alt text](https://github.com/Edcodigo01/CompReuseNgoutletAng/blob/main/src/assets/images/vista-previa.png?raw=true)
+
 ## Descripción del codigo implementado
 
 Explicación del código en el siguinete enlace:
