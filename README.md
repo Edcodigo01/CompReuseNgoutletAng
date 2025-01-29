@@ -3,4 +3,4 @@ Un pequeño ejemplo sobre el uso de componentes reutilizables en angular, especi
 ##Instalación
 
 ##Descripción del codigo implementado
-Explición del codigo en el siguinete enlace: 
+Explición del codigo en el siguinete enlace:
