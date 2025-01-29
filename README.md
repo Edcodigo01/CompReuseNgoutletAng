@@ -1,6 +1,7 @@
 #Demo Reutilización de componentens angular. Uso de la directiva ngTemplateOutlet
 
 Un pequeño ejemplo sobre el uso de componentes reutilizables en angular, especialmente aplicando las directivas, ngTemplateOutlet y ngTemplateOutletContext
+
 ##Instalación
 
 1. "git clone https://github.com/Edcodigo01/CompReuseNgoutletAng.git".
